@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CV</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Muli&display=swap';
+      )
+
+* {
+        font-family: "Muli", sans-serif;
+      }
+
+      #cv {
+        border: 2px dashed #666;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        background-color: #b5ffff;
+        border-radius: 15px;
+      }
+
+      .margen-general {
+        margin: 50px;
+      }
+
+      header {
+        height: 250px;
+        width: 100%;
+        border-bottom: 1px solid #666;
+      }
+
+      header .contenedor-imagen {
+        width: 20%;
+        float: left;
+      }
+
+      .contenedor-imagen img {
+        height: 150px;
+      }
+
+      .contenedor-imagen img:hover {
+        opacity: 0.6;
+      }
+
+      #datos {
+        width: 70%;
+        margin: 50px 5%;
+        float: left;
+      }
+
+      #datos p {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      #datos p .fa {
+        margin-right: 10px;
+      }
+
+      #datos p .fa-female {
+        color: pink;
+      }
+
+      #datos p .fa-envelope {
+        color: navy;
+      }
+
+      #datos p .fa-car {
+        color: red;
+      }
+
+      #estudios .fa-graduation-cap {
+        margin-right: 10px;
+        color: purple;
+      }
+
+      #experiencias .fa-briefcase {
+        margin-right: 10px;
+        color: brown;
+      }
+
+      .cajita {
+        width: 100%;
+        float: left;
+        border: 1px solid #999;
+        border-radius: 15px;
+        margin-bottom: 50px;
+      }
+
+      .experiencia:first-child,
+      .experiencia:nth-of-type(2) {
+        border-top: none;
+      }
+
+      .experiencia:nth-child(odd) {
+        border-right: 1px solid #999;
+      }
+
+      .experiencia:nth-child(even) {
+        border-right: none;
+        border-left: none;
+      }
+
+      .experiencia {
+        width: calc(50% - 82px);
+        float: left;
+        padding: 10px 40px;
+        height: 130px;
+        border-top: 1px solid #999;
+      }
+
+      .experiencia:hover {
+        background-color: #85deff;
+      }
+
+      .experiencia .fa-calendar {
+        margin-right: 10px;
+        color: darkgreen;
+      }
+
+      .experiencia .fa-building {
+        margin-right: 10px;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <div id="cv">
+      <header>
+        <div class="contenedor-imagen">
+          <img
+            class="margen-general animated fadeInLeft"
+            src="https://cdn11.bigcommerce.com/s-1ah1x75lfn/images/stencil/original/products/2171/12120/a_main__51305.1528402196.jpg"
+            alt=""
+          />
+        </div>
+        <article id="datos" class="animated bounce delay-2s">
+          <p><i class="fa fa-female"></i> Juliana Pulgarin Pulgarin</p>
+          <p>
+            <i class="fa fa-envelope"></i> +34 693214536 ·
+            micorreo@electronico.com
+          </p>
+          <p><i class="fa fa-car"></i> Carnet B conducir</p>
+        </article>
+      </header>
+      <section id="estudios" class="margen-general animated rotateInDownRight">
+        <h1><i class="fa fa-graduation-cap"></i>Estudios</h1>
+        <ul>
+          <li>
+            <u>2000-2006</u> Primaria Basica en el colegio mas gulo de gijon
+          </li>
+          <li><u>2006-2010</u> E.S.O. en el instituto de magia Hogwarts</li>
+          <li>
+            <u>2010-2014</u> F.P. Hosteleria avanzada y turismo en escuela de
+            Gijon
+          </li>
+          <li>
+            <u>2019-Actualmente</u> Confeccion y diseño de paginas web en
+            dicampus
+          </li>
+        </ul>
+      </section>
+      <section id="experiencias" class="margen-general animated jackInTheBox">
+        <h1><i class="fa fa-briefcase"></i> Experiencia laboral</h1>
+        <div class="cajita">
+          <div class="experiencia">
+            <p>
+              <i class="fa fa-building"></i> Mago a tiempo completo en el
+              callejon Diagon
+            </p>
+            <p><i class="fa fa-calendar"></i> <u>2010 - 2012</u></p>
+          </div>
+          <div class="experiencia">
+            <p><i class="fa fa-building"></i> Becaria de bruja en Sabrina</p>
+            <p><i class="fa fa-calendar"></i> <u>2012 - 2013</u></p>
+          </div>
+          <div class="experiencia">
+            <p>
+              <i class="fa fa-building"></i> Ayudante de camara en Cuarto
+              Milenio
+            </p>
+            <p><i class="fa fa-calendar"></i> <u>2013 - 2015</u></p>
+          </div>
+          <div class="experiencia">
+            <p>
+              <i class="fa fa-building"></i> Monitora de tiempo libre en colegio
+              molon
+            </p>
+            <p><i class="fa fa-calendar"></i> <u>2015 - 2016</u></p>
+          </div>
+          <div class="experiencia">
+            <p>
+              <i class="fa fa-building"></i> Vampiro a tiempo parcial en
+              Crepusculo
+            </p>
+            <p><i class="fa fa-calendar"></i> <u>2016 - 2019</u></p>
+          </div>
+          <div class="experiencia">
+            <p>
+              <i class="fa fa-building"></i> Programadora Senior en Facebook
+            </p>
+            <p><i class="fa fa-calendar"></i> <u>2019 - Actualmente</u></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
