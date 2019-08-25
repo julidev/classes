@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    <style>
+      html {
+        background: url(https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)
+          center center no-repeat;
+        text-align: center;
+        background-size: cover;
+      }
+
+      body {
+        background: #ffffffcc;
+        max-width: 560px;
+        min-width: 300px;
+        min-height: 350px;
+        margin: calc(50vh - 205px) auto;
+        padding: 20px;
+        border-radius: 20px;
+        border-top: 10px solid #d65114;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+        text-align: center;
+      }
+
+      h1.topLogo {
+        background: url(https://img.icons8.com/clouds/2x/travel-book.png) center
+          center no-repeat;
+        height: 150px;
+        margin-top: -90px;
+      }
+
+      input {
+        width: 280px;
+        background: transparent;
+        border: 1px solid #888;
+        padding: 5px 10px;
+        border-radius: 15px;
+      }
+
+      input[type="submit"] {
+        border-color: orange;
+        font-size: 20px;
+        margin: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background: orange;
+        width: 325px;
+      }
+
+      .forgot {
+        color: #666;
+        text-decoration: none;
+      }
+
+      .forgot:hover {
+        text-decoration: underline;
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="topLogo"></h1>
+    <form action="">
+      <p>
+        Usuario <br /><input
+          type="text"
+          name="email"
+          placeholder="nombre de usuario"
+        />
+      </p>
+      <p>
+        Contraseña <br /><input
+          type="password"
+          name="password"
+          placeholder="tu contraseña"
+        />
+      </p>
+      <input type="submit" value="Enviar" />
+      <br />
+      <a href="#" class="forgot">olvidé contraseña porque soy un desastre</a>
+    </form>
+  </body>
+</html>
