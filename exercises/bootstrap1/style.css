@@ -1,0 +1,23 @@
+.img-container {
+  padding: 10px;
+  text-align: center;
+}
+.img-container img:hover {
+  cursor: pointer;
+  border: 2px solid #000;
+}
+@media (min-width: 576px) {
+  .img-container img {
+    max-width: 100%;
+  }
+}
+
+.blockquote {
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+}
+
+.highlight {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
