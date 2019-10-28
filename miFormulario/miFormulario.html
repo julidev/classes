@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+
+<style>
+    html{background: grey;}
+body{padding: 20px; font-family: sans-serif; width: 450px; margin: 0 auto; background: white; border-radius:40px;;}
+
+input{border: grey 1px solid; border-radius: 20px;
+padding: 4px; color: red; text-align: center;}
+
+
+
+input[type="submit"],
+input[type="reset"]
+{ color: white; background: black; padding: 10px 20px;}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{ color: white; background: red; padding: 10px 20px;
+cursor: pointer}
+
+p{margin: 0; }
+.botonera{ clear: both; margin-top: 50px; width: 250px; margin: 0 auto}
+.botonera input{ width: 230px; margin: 4px;;}
+</style>
+
+
+
+
+
+</head>
+<body>
+    
+<form>
+    <h4> Datos Personales </h4>
+    <p>Mi nombre es: <input type="text"> </p>
+    <p>Pon tus apellidos: <input type="text"> </p>
+
+    <h4> Que sexo eres: </h4>
+    <p> <input type="radio" name="sexo" > Femenino</p>
+    <p> <input type="radio"  name="sexo"> Masculino</p>
+    <p><input type="radio"  name="sexo"> No lo sé </p>
+
+    <h4> Qué animales te gustan </h4>
+    <p><input type="checkbox">Perros</p>
+    <p><input type="checkbox" >Gatos</p>
+    <p><input type="checkbox">Tortugas</p>
+    <p><input type="checkbox">Caracoles</p>
+    <p><input type="checkbox">Otros</p>
+
+    <h4> Yes guapu/guapa</h4>
+    <p> <input type="radio" name="guapu" > Si oh!</p>
+    <p> <input type="radio"  name="guapu"> Que vaH!</p>
+    <p><input type="radio"  name="guapu"> Feu como un Pizio</p>
+
+    <h4> Cuéntanos más cosas sobre tí: </h4>
+    <textarea name="" id="" cols="30" rows="10">
+        Inserta algo de tu vida...
+    </textarea>
+
+<div class="botonera">
+    <input type="submit" value="Mandar Formulario">
+    <input type="reset" value="borrar todo">
+</div>
+
+
+  
+
+    
+
+
+</form>
+
+
+
+</body>
+</html> 
